@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Developer Portfolio">
+    <meta name="keywords" content="Portfolio, Web Development, Student">
+    <meta name="author" content="Matthew Chin Ching">
+    <title>Matthew Chin Ching | Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Matthew Chin Ching</h1>
+        <p>Aspiring <strong>Web Developer</strong> &amp; IT Student</p>
+        
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+                <img src="images/profile.jpg" alt="Profile picture of Matthew Chin Ching" class="profile-img">
+                <p>
+                    I am an Information Technology Web Development student at COSTAATT currently taking <em>ITEC 240: Web Page Design</em>. 
+                    I am passionate about building modern, clean websites. My goal is to <mark>master web development</mark> 
+                    and continue practicing front-end technologies.
+                </p>
+        </section>
+
+        <!-- Skills & Coursework Section -->
+        <section id="skills">
+            <h2>Core Competencies &amp; Coursework</h2>
+            <p>Below is a summary of the technical standards I have learned so far:</p>
+            <ul>
+                <li><strong>HTML5:</strong> Semantic page layout, structured forms, tables, and media tags.</li>
+                <li><strong>CSS3:</strong> Styling selectors, custom fonts, layout spacing, and link hover effects.</li>
+                <li><strong>JavaScript:</strong> Core syntax, control flow, scope, higher-order functions, and closures.</li>
+                <li><strong>Validation:</strong> Validating HTML and CSS code using W3C standards.</li>
+            </ul>
+        </section>
+
+        <!-- Projects Table Section -->
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <p>An overview of completed coursework and assignments:</p>
+            <table>
+                <caption>Academic Web Projects</caption>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Category</th>
+                        <th>Technologies</th>
+                        <th>Live Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="proj-title">Famous Landmarks</td>
+                        <td>Coursework Assignment</td>
+                        <td>HTML5, CSS Table Layout</td>
+                        <td><a href="https://github.com" target="_blank">View Project</a></td>
+                    </tr>
+                    <tr>
+                        <td class="proj-title">Programme Registration</td>
+                        <td>Coursework Assignment</td>
+                        <td>HTML5 Forms &amp; Fieldsets</td>
+                        <td><a href="https://github.com" target="_blank">View Project</a></td>
+                    </tr>
+                    <tr>
+                        <td class="proj-title">Student Portfolio</td>
+                        <td>Single-Page Website</td>
+                        <td>Semantic HTML5 &amp; CSS3</td>
+                        <td><a href="https://github.com" target="_blank">View Project</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Use the form below to send me a message or inquiry.</p>
+            
+            <form action="#" method="post" id="contact-form">
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" placeholder="Matthew ChinChing" required>
+                    </p>
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" placeholder="matthew@gmail.com" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inquiry Details</legend>
+                    <p><strong>Reason for Contact:</strong></p>
+                    <p>
+                        <input type="radio" id="reason-project" name="reason" value="project" checked>
+                        <label for="reason-project">Project Collaboration</label><br>
+                        <input type="radio" id="reason-job" name="reason" value="job">
+                        <label for="reason-job">Job / Internship</label><br>
+                        <input type="radio" id="reason-other" name="reason" value="other">
+                        <label for="reason-other">General Inquiry</label>
+                    </p>
+
+                    <p><strong>Preferred Contact Method:</strong></p>
+                    <p>
+                        <input type="checkbox" id="pref-email" name="preference" value="email" checked>
+                        <label for="pref-email">Email</label><br>
+                        <input type="checkbox" id="pref-phone" name="preference" value="phone">
+                        <label for="pref-phone">Phone Call</label>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message</legend>
+                    <p>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="40" placeholder="Type your message here..."></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="submit" id="contact-submit" class="btn-submit" value="Send Message">
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Matthew Chin Ching. All Rights Reserved.</p>
+        <p>ITEC 240: Web Page Design</p>
+    </footer>
+
+</body>
+</html>
