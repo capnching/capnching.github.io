@@ -1,0 +1,181 @@
+/*
+   General Body Styling 
+   */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/*
+   Header & Navigation Menu
+*/
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.1em;
+    color: lightgray;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+/* Nav Link Hover Effect 
+*/
+nav ul li a:hover {
+    background-color: darkblue;
+    color: yellow;
+}
+
+/*
+   Main Page Layout
+*/
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid lightgray;
+}
+
+h2 {
+    color: navy;
+    border-bottom: 2px solid darkblue;
+    padding-bottom: 5px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 15px;
+    border: 2px solid darkblue;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+/* 
+   D. Table Styling 
+   */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+caption {
+    font-weight: bold;
+    color: navy;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+thead th {
+    background-color: darkblue;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tbody tr:hover {
+    background-color: lightcyan;
+}
+
+.proj-title {
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* 
+   E. Form & Button Styling 
+*/
+fieldset {
+    border: 1px solid gray;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: navy;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+/* Class Selector */
+.btn-submit {
+    background-color: darkblue;
+    color: white;
+    padding: 8px 18px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* ID Selector & Hover Effect */
+#contact-submit:hover {
+    background-color: navy;
+    color: yellow;
+}
+
+/*
+   F. Footer Styling
+*/
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 0.9em;
+}
